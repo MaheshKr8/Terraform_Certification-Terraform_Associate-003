@@ -52,7 +52,7 @@ If it is necessary to apply Day 1 through Day N configurations, the code might l
 
 #) IaC Makes Infrastructure More Reliable
  >IaC makes changes idempotent, consistent, repeatable, and predictable.
- 
+
 #) IaC Makes Infrastructure More Manageable
 >>During execution, Terraform will examine the state of the currently running infrastructure, determine what differences exist between the current state and the revised desired state, and indicate the necessary changes that must be applied. When approved to proceed, only the necessary changes will be applied, leaving existing, valid infrastructure untouched.
 
@@ -61,6 +61,12 @@ If it is necessary to apply Day 1 through Day N configurations, the code might l
 
 
 
+## To deploy infrastructure with Terraform:
 
+Scope - Identify the infrastructure for your project.
+Author - Write the configuration for your infrastructure.
+Initialize - Install the plugins Terraform needs to manage the infrastructure.
+Plan - Preview the changes Terraform will make to match your configuration.
+Apply - Make the planned changes.
 
 
